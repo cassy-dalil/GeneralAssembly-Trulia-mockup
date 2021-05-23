@@ -1,0 +1,303 @@
+/* ### Colors
+Green: #20c063 / RGBA(32,192,99,1)
+Gray: #e8e9ea  / RGBA (232,233,234,1)
+Dark Text: #3b4144 / RGBA (59,65,68,1) */
+* {
+    font-family: 'lato';
+}
+
+/* HEADER */
+
+header {
+    background-color: #20c063;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1 img {
+    width: 78px;
+    height: 25px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+#j {
+    border: 2px solid white;
+    border-radius: 22px;
+    padding: 2px 8px;
+    margin-right: 5px;
+}
+
+
+/* SECTION 1 */
+
+.section-1 h5 {
+    margin-bottom: 20px;
+}
+
+.section-1 p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* GRID SECTION */
+
+
+.house-1 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg');
+}
+
+.house-2 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg');
+}
+
+.house-3 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg');
+}
+
+.house-4 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg');
+}
+
+.house-5 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg');
+}
+
+.house-6 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg');
+}
+
+.house-7 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg');
+}
+
+.house-8 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg');
+}
+
+.house-09 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg');
+}
+
+.house-10 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg');
+}
+
+.house-11 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg');
+}
+
+.house-12 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg');
+}
+
+.house-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    background-color: #e8e9ea;
+    padding: 15px;
+}
+
+.grid-item {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    background-color: white;
+}
+
+.house-facts {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.house-price {
+    font-weight: bold;
+    padding-top: 5px;
+    color: black;
+}
+
+.house-stats {
+    color: gray;
+    font-size: 14px;
+}
+
+.house-stats ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px 0px;
+    color: #3b4144;
+    margin: 2px 0;
+}
+
+ul {
+    list-style: none;
+    color: gray;
+}
+
+.trulia-house-beds-icon img {
+    height: 15px;
+}
+
+.trulia-house-baths-icon img {
+    height: 15px;
+}
+
+.trulia-house-beds {
+    margin-right: 5px;
+}
+
+.trulia-house-baths {
+    margin-right: 5px;
+}
+
+.trulia-house-address, .trulia-house-location {
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+
+/* RESULTS SECTION */
+
+.results-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.results-pages-section {
+    margin: 0;
+}
+
+.results-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #20c063;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.results-pages a {
+    margin:  0px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #20c063;
+}
+
+.results-numbers {
+    color: gray;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin: 5px;
+}
+
+.results-where {
+    color: #20c063;
+    margin: 5px 0px;
+    font-size: 14px;
+    padding-top: 0px;
+}
+
+.black {
+    color: black;
+}
+
+/* INSIGHTS SECTION */
+
+.insights-section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5px 20px 30px 20px;
+}
+
+.insights-title {
+    margin-bottom: 2px;
+    padding: 0px;
+}
+
+.insights-title h3 {
+    margin: 0px;
+}
+
+.insights-text {
+    font-size: 14px;
+    color: #3b4144;
+    padding-left: 30px;
+    margin-top: 2px;
+}
+
+.insights-links {
+    text-decoration: none;
+    color: #20c063;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #474E52;
+    color: #b1b6bb;
+    height: 100%;
+}
+
+.footer-list {
+    color: #b1b6bb;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    opacity: .5;
+    font-size: 14px;
+    padding: 20px 0px 5px 0px;
+}
+
+.footer-list li {
+    margin: 5px;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    margin: 0px 20px;
+    opacity: .5;
+    padding-bottom: 2px;
+}
+
+
